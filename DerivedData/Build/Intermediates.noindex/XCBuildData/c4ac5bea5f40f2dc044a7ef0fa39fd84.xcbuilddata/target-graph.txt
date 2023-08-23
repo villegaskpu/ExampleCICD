@@ -1,0 +1,11 @@
+Target dependency graph (5 targets)
+AppCenter in Pods, no dependencies
+Pods-ExampleCICD in Pods, depends on:
+AppCenter in Pods (explicit)
+ExampleCICD in ExampleCICD, depends on:
+Pods-ExampleCICD in Pods (implicit dependency via file 'Pods_ExampleCICD.framework' in build phase 'Link Binary')
+ExampleCICDUITests in ExampleCICD, depends on:
+ExampleCICD in ExampleCICD (explicit)
+Pods-ExampleCICD in Pods (implicit dependency via file 'Pods_ExampleCICD.framework' in build phase 'Copy Files')
+ExampleCICDTests in ExampleCICD, depends on:
+ExampleCICD in ExampleCICD (explicit)
