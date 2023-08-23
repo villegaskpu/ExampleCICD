@@ -28,6 +28,30 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "62840D872A93DB9F007EE1A0"
+               BuildableName = "ExampleCICDUITests.xctest"
+               BlueprintName = "ExampleCICDUITests"
+               ReferencedContainer = "container:ExampleCICD.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "62263FF02A9685F7004D8BFB"
+               BuildableName = "ExampleCICDTests.xctest"
+               BlueprintName = "ExampleCICDTests"
+               ReferencedContainer = "container:ExampleCICD.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Release"

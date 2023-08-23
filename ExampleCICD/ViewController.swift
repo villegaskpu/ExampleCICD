@@ -17,7 +17,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var interestRateTextField: UITextField!
     @IBOutlet weak var savingsTextField: UITextField!
     
-    @IBOutlet weak var resultLabel: UILabel!
+    
+    @IBOutlet weak var resultadoDeTexto: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,7 +48,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func calculateButton_TouchUpInside(_ sender: Any) {
-        
+        self.view.endEditing(true)
         let current_age : Int? = Int(ageTextField.text!)
         let planned_retirement_age : Int? = Int(retirementAgeTextField.text!)
         let monthly_investment : Float? = Float(monthlyInvestmentsTextField.text!)
@@ -56,12 +57,16 @@ class ViewController: UIViewController {
         
         let retirement_amount = calculateRetirementAmount(current_age: current_age!, retirement_age: planned_retirement_age!, monthly_investment: monthly_investment!, current_savings: current_savings!, interest_rate: interest_rate!)
         
-        resultLabel.text = "If you save $\(monthly_investment!) every month for \(planned_retirement_age! - current_age!) years, and invest that money plus your current investment of $\(current_savings!) at a \(interest_rate!)% anual interest rate, you will have $\(retirement_amount) by the time you are \(planned_retirement_age!)"
+//        let properties = ["current_age": String(current_age!),
+//                          "planned_retirement_age": String(planned_retirement_age!)]
+//        
+//        Analytics.trackEvent("calculate_retirement_amount", withProperties: properties)
+        DispatchQueue.main.async {
+            self.resultadoDeTexto.text = "If you save $\(monthly_investment!) every month for \(planned_retirement_age! - current_age!) years, and invest that money plus your current investment of $\(current_savings!) at a \(interest_rate!)% anual interest rate, you will have $\(retirement_amount) by the time you are \(planned_retirement_age!)"
+        }
         
-        let properties = ["current_age": String(current_age!),
-                          "planned_retirement_age": String(planned_retirement_age!)]
         
-        Analytics.trackEvent("calculate_retirement_amount", withProperties: properties)
+        
     }
 }
 

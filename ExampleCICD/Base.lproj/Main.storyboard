@@ -18,69 +18,69 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="R8V-st-34D">
-                                <rect key="frame" x="16" y="59" width="361" height="202"/>
+                                <rect key="frame" x="16" y="59.000000000000014" width="361" height="230.33333333333337"/>
                                 <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="result" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0xT-WZ-TYb">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="20.333333333333332"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="resultadoDeTexto"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Monthly investments" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aiM-5L-GuT">
-                                        <rect key="frame" x="0.0" y="0.0" width="361" height="34"/>
+                                        <rect key="frame" x="0.0" y="28.333333333333329" width="361" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Your current age" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0tu-w1-R8V">
-                                        <rect key="frame" x="0.0" y="42" width="361" height="34"/>
+                                        <rect key="frame" x="0.0" y="70.333333333333343" width="361" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Your planned retirement age" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K41-eg-swG">
-                                        <rect key="frame" x="0.0" y="84" width="361" height="34"/>
+                                        <rect key="frame" x="0.0" y="112.33333333333334" width="361" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Average interest rate of investments" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RoN-bu-GF4">
-                                        <rect key="frame" x="0.0" y="126" width="361" height="34"/>
+                                        <rect key="frame" x="0.0" y="154.33333333333334" width="361" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Current savings" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="egJ-GR-emd">
-                                        <rect key="frame" x="0.0" y="168" width="361" height="34"/>
+                                        <rect key="frame" x="0.0" y="196.33333333333334" width="361" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IcI-wa-Xd6">
-                                <rect key="frame" x="16" y="283" width="361" height="34.333333333333314"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IOa-nv-HYu">
+                                <rect key="frame" x="8" y="297.33333333333331" width="377" height="34.333333333333314"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Calculate retirement amount"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Calculate retirement amount"/>
                                 <connections>
-                                    <action selector="calculateButton_TouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tq6-CZ-KXn"/>
+                                    <action selector="calculateButton_TouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wgw-al-NYe"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter some values to calculate your retirement amount." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rIj-Qk-2Um">
-                                <rect key="frame" x="16" y="333.33333333333331" width="361" height="40.666666666666686"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="rIj-Qk-2Um" firstAttribute="top" secondItem="IcI-wa-Xd6" secondAttribute="bottom" constant="16" id="A11-0L-mO3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IOa-nv-HYu" secondAttribute="trailing" constant="8" id="NoP-b5-lMn"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="R8V-st-34D" secondAttribute="trailing" constant="16" id="PdT-Iz-q5v"/>
-                            <constraint firstItem="IcI-wa-Xd6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="WFH-09-duY"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IcI-wa-Xd6" secondAttribute="trailing" constant="16" id="WsR-ur-vIV"/>
+                            <constraint firstItem="IOa-nv-HYu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="ctW-wr-sIZ"/>
+                            <constraint firstItem="IOa-nv-HYu" firstAttribute="top" secondItem="R8V-st-34D" secondAttribute="bottom" constant="8" id="dLe-3R-iYy"/>
                             <constraint firstItem="R8V-st-34D" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="iRd-Tk-hHo"/>
                             <constraint firstItem="R8V-st-34D" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="kHU-VQ-Nhq"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rIj-Qk-2Um" secondAttribute="trailing" constant="16" id="mRS-cV-dmf"/>
-                            <constraint firstItem="rIj-Qk-2Um" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="oA2-z5-EAX"/>
-                            <constraint firstItem="IcI-wa-Xd6" firstAttribute="top" secondItem="R8V-st-34D" secondAttribute="bottom" constant="22" id="xpe-Gy-DeK"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="ageTextField" destination="0tu-w1-R8V" id="JjY-rK-y92"/>
                         <outlet property="interestRateTextField" destination="RoN-bu-GF4" id="3GC-aT-iCI"/>
                         <outlet property="monthlyInvestmentsTextField" destination="aiM-5L-GuT" id="3wE-2H-e1e"/>
-                        <outlet property="resultLabel" destination="rIj-Qk-2Um" id="H4l-Qx-giD"/>
+                        <outlet property="resultadoDeTexto" destination="0xT-WZ-TYb" id="qj7-ux-FAb"/>
                         <outlet property="retirementAgeTextField" destination="K41-eg-swG" id="NTo-I6-OYX"/>
                         <outlet property="savingsTextField" destination="egJ-GR-emd" id="q91-Lr-a4p"/>
                     </connections>
@@ -91,6 +91,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
