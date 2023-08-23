@@ -1,0 +1,74 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "eb1b4a25e20689aa425e5e70d38861f4563cf5164c038eacd669feb42067dff3"
+    },
+    {
+      "guid" : "eb1b4a25e20689aa425e5e70d38861f481b83a7d02675b50f8d226a3ee5fdf15"
+    },
+    {
+      "guid" : "eb1b4a25e20689aa425e5e70d38861f4e9e626e308cf601d720237150ead513d"
+    }
+  ],
+  "containerPath" : "/Users/villegasd/Documents/GitHub/ExampleCICD/ExampleCICD.xcworkspace",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "undefined_arch",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos16.4",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "undefined_arch"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/villegasd/Documents/GitHub/ExampleCICD/DerivedData/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/villegasd/Documents/GitHub/ExampleCICD/DerivedData/Build/Products",
+      "derivedDataPath" : "/Users/villegasd/Documents/GitHub/ExampleCICD/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/villegasd/Documents/GitHub/ExampleCICD/DerivedData/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/villegasd/Documents/GitHub/ExampleCICD/DerivedData/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/villegasd/Documents/GitHub/ExampleCICD/DerivedData/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "SDKROOT" : "iphoneos16.4"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "COLOR_DIAGNOSTICS" : "YES",
+          "diagnostic_message_length" : "80",
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "test",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
