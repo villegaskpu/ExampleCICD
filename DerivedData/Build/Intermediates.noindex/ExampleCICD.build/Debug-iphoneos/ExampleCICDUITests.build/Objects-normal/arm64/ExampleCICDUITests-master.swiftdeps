@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "9b731f9f5643c72d87d2558a60655a960c2b04d5526f28ba1a443ce593e0d229"
+build_start_time: [1692818077, 739262000]
+build_end_time: [1692818102, 620420000]
+inputs:
+  "/Users/villegasd/Documents/GitHub/ExampleCICD/ExampleCICDUITests/ExampleCICDUITests.swift": [1692815311, 774241803]
+  "/Users/villegasd/Documents/GitHub/ExampleCICD/ExampleCICDUITests/ExampleCICDUITestsLaunchTests.swift": [1692640288, 35880221]

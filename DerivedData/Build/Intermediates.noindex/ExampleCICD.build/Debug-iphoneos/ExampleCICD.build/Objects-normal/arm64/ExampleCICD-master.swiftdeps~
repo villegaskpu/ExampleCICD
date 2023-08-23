@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "4b176a8bf1156abccf4962f33b180fa456ce2fced5ff24c0f77d431e7a40847f"
+build_start_time: [1692818071, 836427000]
+build_end_time: [1692818071, 942931000]
+inputs:
+  "/Users/villegasd/Documents/GitHub/ExampleCICD/ExampleCICD/AppDelegate.swift": !private [1692403929, 939447387]
+  "/Users/villegasd/Documents/GitHub/ExampleCICD/ExampleCICD/SceneDelegate.swift": !private [1692058310, 696319972]
+  "/Users/villegasd/Documents/GitHub/ExampleCICD/ExampleCICD/ViewController.swift": !private [1692811466, 502570490]
